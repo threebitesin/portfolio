@@ -19,7 +19,7 @@ export default function Home() {
             href="/" 
             className="text-lg font-bold tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-fuchsia-400 hover:to-cyan-400 transition-all duration-300"
           >
-            GITFOLIO
+            THREEBITESIN
           </Link>
           <div className="flex gap-8 text-xs font-bold tracking-widest uppercase text-cyan-700/80">
             <Link href="#work" className="hover:text-cyan-400 hover:drop-shadow-[0_0_5px_rgba(34,211,238,0.8)] transition-all">PROJECTS</Link>
@@ -35,24 +35,21 @@ export default function Home() {
           <div className="space-y-2">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-cyan-500/30 bg-cyan-950/20 text-cyan-400 text-xs font-bold tracking-widest uppercase animate-pulse">
               <span className="w-2 h-2 rounded-full bg-cyan-400 shadow-[0_0_10px_rgba(34,211,238,1)]" />
-              READY TO LAUNCH
+              AVAILABLE TO WORK
             </div>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tighter text-white leading-[1.1] drop-shadow-[0_0_15px_rgba(34,211,238,0.3)]">
-              BUILD YOUR <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-500 via-purple-500 to-cyan-500 animate-gradient-x">DEVELOPER PORTFOLIO</span> <br />
-              IN MINUTES
+              LEVEL 10 <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-500 via-purple-500 to-cyan-500 animate-gradient-x">QA SPECIALIST</span> <br />
+              AND CREATIVE
             </h1>
           </div>
-          <p className="text-lg md:text-xl text-cyan-100/70 max-w-2xl leading-relaxed font-light border-l-2 border-fuchsia-500/50 pl-6">
-            A beginner-friendly portfolio template that showcases your projects beautifully. Fork it, customize it, deploy it—no design skills required.
-          </p>
           <div className="pt-8 flex gap-6">
             <Link 
               href="#work" 
               className="group relative px-8 py-3 bg-cyan-950/30 border border-cyan-500/50 text-cyan-300 font-bold tracking-widest uppercase text-sm overflow-hidden hover:bg-cyan-900/50 transition-all hover:shadow-[0_0_20px_rgba(34,211,238,0.4)]"
             >
               <span className="relative z-10 flex items-center gap-2">
-                GET STARTED <ArrowRightIcon className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                START <ArrowRightIcon className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </span>
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-cyan-400/10 to-transparent -translate-x-full group-hover:animate-shimmer" />
             </Link>
@@ -63,7 +60,7 @@ export default function Home() {
         <section id="work" className="py-20 space-y-12">
           <div className="flex items-end justify-between border-b border-cyan-900/30 pb-4">
             <h2 className="text-2xl font-bold tracking-widest text-fuchsia-400 drop-shadow-[0_0_8px_rgba(232,121,249,0.6)]">
-              // YOUR_PROJECTS
+              // MY_PROJECTS
             </h2>
             <span className="text-xs font-mono text-cyan-700">Showcase what you&apos;ve built with style</span>
           </div>
@@ -127,25 +124,25 @@ export default function Home() {
           </div>
           <div className="md:col-span-8 space-y-8 text-cyan-100/80 leading-relaxed font-light">
             <p>
-              Every developer has a unique journey. Share yours here—whether you&apos;re self-taught, a bootcamp grad, or transitioning careers. <strong className="text-fuchsia-400 font-bold">Your story matters.</strong> Talk about what drives you to code and the impact you want to make.
+              Wanderer of industries firmly rooted in QA, now taking a plunge into development of tools, games, and stories.
             </p>
             <div className="p-6 bg-cyan-950/20 border border-cyan-500/20 rounded-sm relative overflow-hidden">
               <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-500 via-fuchsia-500 to-cyan-500" />
               <div className="grid grid-cols-2 gap-8 font-mono text-sm">
                 <div>
-                  <h3 className="text-cyan-400 mb-4 tracking-widest uppercase text-xs border-b border-cyan-800 pb-2">STACK_TRACE</h3>
+                  <h3 className="text-cyan-400 mb-4 tracking-widest uppercase text-xs border-b border-cyan-800 pb-2">SKILLS</h3>
                   <ul className="space-y-2 text-cyan-200/70">
-                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> JavaScript / Python / TypeScript</li>
-                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> React / Next.js / Node.js</li>
-                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Git / GitHub / VS Code</li>
+                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> SQL / Python / HTML</li>
+                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Power BI / Minitab / Excel</li>
+                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Debugging / Root Cause Analysis / Preventative Maintence</li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-cyan-400 mb-4 tracking-widest uppercase text-xs border-b border-cyan-800 pb-2">PROTOCOLS</h3>
                   <ul className="space-y-2 text-cyan-200/70">
-                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Always learning</li>
+                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Quick Learner</li>
                     <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Ship &gt; Perfect</li>
-                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Open source contributor</li>
+                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Team leader</li>
                   </ul>
                 </div>
               </div>
@@ -157,22 +154,16 @@ export default function Home() {
         <section id="contact" className="py-20 border-t border-cyan-900/30">
           <div className="max-w-3xl mx-auto text-center space-y-8">
             <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]">
-              READY TO <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">LAUNCH?</span>
+              Work with <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">Me?</span>
             </h2>
             <p className="text-cyan-200/60 text-lg">
-              Fork this template on GitHub and make it yours. Update the content, add your projects, and deploy to GitHub Pages in under 30 minutes.
+              If you have a freelance gig, contract, or full time position, feel free to contact me.
             </p>
             <div className="flex flex-col items-center gap-6">
-              <a 
-                href="https://github.com/ladykerr/gfbs3-portfolio-demo" 
-                className="px-10 py-4 bg-fuchsia-600 text-white font-bold tracking-widest uppercase text-sm hover:bg-fuchsia-500 transition-all hover:shadow-[0_0_30px_rgba(232,121,249,0.6)] hover:scale-105 duration-300 clip-path-polygon"
-              >
-                FORK ON GITHUB
-              </a>
               <div className="flex items-center gap-8 pt-4">
-                <SocialLink href="https://github.com" label="GITHUB" />
-                <SocialLink href="https://linkedin.com" label="LINKEDIN" />
-                <SocialLink href="https://twitter.com" label="TWITTER" />
+                <SocialLink href="https://github.com/threebitesin" label="GITHUB" />
+                <SocialLink href="https://bsky.app/profile/threebitesin.bsky.social" label="BLUESKY" />
+                <SocialLink href="https://linkedin.com" label="EMAIL" />
               </div>
             </div>
           </div>
