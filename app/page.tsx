@@ -115,7 +115,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(34,211,238,0.05)_1px,transparent_1px)] bg-[size:100%_4px] z-20 pointer-events-none" />
               
               <Image 
-                src={"portfolio/public/me.png"}
+                src={"https://github.com/threebitesin/portfolio/blob/main/public/me.png"}
                 alt="Profile"
                 fill
                 className="object-cover z-0 opacity-60 group-hover:opacity-100 transition-all duration-500 grayscale group-hover:grayscale-0"
@@ -132,17 +132,17 @@ export default function Home() {
                 <div>
                   <h3 className="text-cyan-400 mb-4 tracking-widest uppercase text-xs border-b border-cyan-800 pb-2">SKILLS</h3>
                   <ul className="space-y-2 text-cyan-200/70">
-                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> SQL / Python / HTML</li>
-                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Power BI / Minitab / Excel</li>
-                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Debugging / Root Cause Analysis / Preventative Maintence</li>
+                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Bug Triage / Root Cause Analysis / Risk Assessment</li>
+                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Jira / Power BI / QMS</li>
+                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Data Analysis / Dashboard Development / Tool Support</li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-cyan-400 mb-4 tracking-widest uppercase text-xs border-b border-cyan-800 pb-2">PROTOCOLS</h3>
                   <ul className="space-y-2 text-cyan-200/70">
-                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Quick Learner</li>
-                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Ship &gt; Perfect</li>
-                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Team leader</li>
+                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Leadership</li>
+                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Collaboration</li>
+                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Process Improvement</li>
                   </ul>
                 </div>
               </div>
@@ -163,7 +163,7 @@ export default function Home() {
               <div className="flex items-center gap-8 pt-4">
                 <SocialLink href="https://github.com/threebitesin" label="GITHUB" />
                 <SocialLink href="https://bsky.app/profile/threebitesin.bsky.social" label="BLUESKY" />
-                <SocialLink href="https://linkedin.com" label="EMAIL" />
+                <SocialLink href="https://www.tumblr.com/threebitesin" label="BLOG" />
               </div>
             </div>
           </div>
