@@ -60,7 +60,7 @@ export default function Home() {
         <section id="work" className="py-20 space-y-12">
           <div className="flex items-end justify-between border-b border-cyan-900/30 pb-4">
             <h2 className="text-2xl font-bold tracking-widest text-fuchsia-400 drop-shadow-[0_0_8px_rgba(232,121,249,0.6)]">
-              // MY_PROJECTS
+              // RECENT_PROJECTS
             </h2>
             <span className="text-xs font-mono text-cyan-700">Showcase what you&apos;ve built with style</span>
           </div>
@@ -68,33 +68,33 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Project 1 */}
             <ProjectCard 
-              title="PROJECT_ONE"
-              description="Your first amazing project goes here. Describe what problem it solves and the tech you used to build it."
-              tags={["REACT", "NEXTJS", "TAILWIND"]}
+              title="Quality Assurance ExDev Dashboard"
+              description="Onboarding platform for new ExDevs to have an easy resource to refer to for sprint tasks and active bug regression and user stories. Maintained with active updates based on stakeholder feedback."
+              tags={["Jira", "JQL", "Atlassian"]}
               color="cyan"
               href="#"
             />
             {/* Project 2 */}
             <ProjectCard 
-              title="PROJECT_TWO"
-              description="Your second project showcase. Tell visitors what makes this project special and what you learned building it."
-              tags={["JAVASCRIPT", "API", "CSS"]}
+              title="Quality Assurance Playtest Tracker"
+              description="Dashboard that tracked small team playtests by utilizing Excel and JQL search criteria. Allowed for an analytical method to determine value added from playtest series."
+              tags={["Jira", "JQL", "Excel"]}
               color="fuchsia"
               href="#"
             />
             {/* Project 3 */}
             <ProjectCard 
-              title="PROJECT_THREE"
-              description="Another project to highlight your skills. Share the impact or results of this work."
-              tags={["TYPESCRIPT", "NODE", "EXPRESS"]}
+              title="Steering Committee Dashboard"
+              description="Developed a online dashboard to showcase current key performance indicator for company leadership. Involved collaboration with the Quality and Leadership team to determine best means to showcase data for ease of understanding."
+              tags={["PowerBI", "Excel", "Minitab"]}
               color="purple"
               href="#"
             />
             {/* Project 4 */}
             <ProjectCard 
-              title="PROJECT_FOUR"
-              description="Keep building and adding to your portfolio. Each project tells part of your developer story."
-              tags={["PYTHON", "DJANGO", "POSTGRESQL"]}
+              title="Calibration Management System"
+              description="CoDeveloped platform for instrument calibration management. Collective project to best serve the Quality and Engineering departments of the company to allow for a more stable form of asset tracking than the prior system."
+              tags={["Intellect QMS", "Block-Based", "cGMP"]}
               color="yellow"
               href="#"
             />
