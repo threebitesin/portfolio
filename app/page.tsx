@@ -62,7 +62,7 @@ export default function Home() {
             <h2 className="text-2xl font-bold tracking-widest text-fuchsia-400 drop-shadow-[0_0_8px_rgba(232,121,249,0.6)]">
               // RECENT_PROJECTS
             </h2>
-            <span className="text-xs font-mono text-cyan-700">Showcase what you&apos;ve built with style</span>
+            <span className="text-xs font-mono text-cyan-700">Professional and personal showcase.</span>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
