@@ -157,11 +157,11 @@ export default function Home() {
               Work with <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">Me?</span>
             </h2>
             <p className="text-cyan-200/60 text-lg">
-              If you have a freelance gig, contract, or full time position, feel free to contact me.
+              If you have a freelance gig, contract, or full time position, feel free to contact me using the following links.
             </p>
             <div className="flex flex-col items-center gap-6">
               <div className="flex items-center gap-8 pt-4">
-                <SocialLink href="https://hitmarker.net/threebitesin" label="RESUME" />
+                <SocialLink href="https://hitmarker.net/threebitesin" label="HITMARKER" />
                 <SocialLink href="https://github.com/threebitesin" label="GITHUB" />
               </div>
             </div>
