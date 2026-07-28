@@ -66,7 +66,7 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Project 5 */}
+            {/* Project 1 */}
             <ProjectCard 
               title="Elder Pyre"
               description="Elder Pyre is a Unity based top-down 2D game developed for the 2026 GMTK Game Jam. My roles were as sound designer, level designer, and quality tester."
@@ -74,26 +74,21 @@ export default function Home() {
               color="cyan"
               href="https://roboticprism.itch.io/elder-pyre"
             />
-            {/* Project 1 */}
+            {/* Project 2 */}
             <ProjectCard 
               title="Quality Assurance ExDev Dashboard"
               description="Onboarding platform for new ExDevs to have an easy resource to refer to for sprint tasks and active bug regression and user stories. Maintained with active updates based on stakeholder feedback."
               tags={["Jira", "JQL", "Atlassian"]}
               color="cyan"
+              href="#"
             />
-            {/* Project 2 */}
+            {/* Project 3 */}
             <ProjectCard 
               title="Quality Assurance Playtest Tracker"
               description="Dashboard that tracked small team playtests by utilizing Excel and JQL search criteria. Allowed for an analytical method to determine value added from playtest series."
               tags={["Jira", "JQL", "Excel"]}
               color="fuchsia"
-            />
-            {/* Project 3 */}
-            <ProjectCard 
-              title="Steering Committee Dashboard"
-              description="Developed a online dashboard to showcase current key performance indicator for company leadership. Involved collaboration with the Quality and Leadership team to determine best means to showcase data for ease of understanding."
-              tags={["PowerBI", "Excel", "Minitab"]}
-              color="purple"
+              href="#"
             />
             {/* Project 4 */}
             <ProjectCard 
@@ -101,6 +96,7 @@ export default function Home() {
               description="CoDeveloped platform for instrument calibration management. Collective project to best serve the Quality and Engineering departments of the company to allow for a more stable form of asset tracking than the prior system."
               tags={["Intellect QMS", "Block-Based", "cGMP"]}
               color="yellow"
+              href="#"
             />
           </div>
         </section>
