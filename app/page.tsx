@@ -163,7 +163,6 @@ export default function Home() {
               <div className="flex items-center gap-8 pt-4">
                 <SocialLink href="https://hitmarker.net/threebitesin" label="RESUME" />
                 <SocialLink href="https://github.com/threebitesin" label="GITHUB" />
-                <SocialLink href="https://bsky.app/profile/threebitesin.bsky.social" label="BLUESKY" />
               </div>
             </div>
           </div>
