@@ -66,13 +66,20 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Project 5 */}
+            <ProjectCard 
+              title="Elder Pyre"
+              description="Elder Pyre is a Unity based top-down 2D game developed for the 2026 GMTK Game Jam. My roles were as sound designer, level designer, and quality tester."
+              tags={["Unity", "Game Design", "GMTK Game Jam"]}
+              color="cyan"
+              href="https://roboticprism.itch.io/elder-pyre"
+            />
             {/* Project 1 */}
             <ProjectCard 
               title="Quality Assurance ExDev Dashboard"
               description="Onboarding platform for new ExDevs to have an easy resource to refer to for sprint tasks and active bug regression and user stories. Maintained with active updates based on stakeholder feedback."
               tags={["Jira", "JQL", "Atlassian"]}
               color="cyan"
-              href="#"
             />
             {/* Project 2 */}
             <ProjectCard 
@@ -80,7 +87,6 @@ export default function Home() {
               description="Dashboard that tracked small team playtests by utilizing Excel and JQL search criteria. Allowed for an analytical method to determine value added from playtest series."
               tags={["Jira", "JQL", "Excel"]}
               color="fuchsia"
-              href="#"
             />
             {/* Project 3 */}
             <ProjectCard 
@@ -88,7 +94,6 @@ export default function Home() {
               description="Developed a online dashboard to showcase current key performance indicator for company leadership. Involved collaboration with the Quality and Leadership team to determine best means to showcase data for ease of understanding."
               tags={["PowerBI", "Excel", "Minitab"]}
               color="purple"
-              href="#"
             />
             {/* Project 4 */}
             <ProjectCard 
@@ -96,7 +101,6 @@ export default function Home() {
               description="CoDeveloped platform for instrument calibration management. Collective project to best serve the Quality and Engineering departments of the company to allow for a more stable form of asset tracking than the prior system."
               tags={["Intellect QMS", "Block-Based", "cGMP"]}
               color="yellow"
-              href="#"
             />
           </div>
         </section>
@@ -161,9 +165,9 @@ export default function Home() {
             </p>
             <div className="flex flex-col items-center gap-6">
               <div className="flex items-center gap-8 pt-4">
+                <SocialLink href="https://hitmarker.net/threebitesin" label="RESUME" />
                 <SocialLink href="https://github.com/threebitesin" label="GITHUB" />
                 <SocialLink href="https://bsky.app/profile/threebitesin.bsky.social" label="BLUESKY" />
-                <SocialLink href="https://www.tumblr.com/threebitesin" label="BLOG" />
               </div>
             </div>
           </div>
